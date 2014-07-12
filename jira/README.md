@@ -12,7 +12,7 @@ In this configuration, connection to http://jira.example.com is redirected to ht
 
 It is advised that nginx server runs on the same host as Jira and is _dedicated_ for Jira application only.
 
-As of this writing, it is tested on the following at their default locations,
+At the time of this writing, it is tested on the following at their default locations,
 
 * nginx 1.4.7
 * jira 6.3
@@ -22,7 +22,7 @@ _jira.example.com_ is used as a server name and the URL that will be used to acc
 
 nginx configuration
 -------------------
-Replace the default nginx.conf with the one from this repository. Edit ssl key and certificate locations as well as the server name. Read here for more recommendations for further improving SSL security performance - http://nginx.org/en/docs/http/configuring_https_servers.html
+Replace the default nginx.conf with the one from this repository. Edit ssl key and certificate locations as well as the server name. Read here for more recommendations for further improving SSL security performance - http://nginx.org/en/docs/http/configuring_https_servers.html or here https://gist.github.com/plentz/6737338
 
 Jira configuration
 ------------------
