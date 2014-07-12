@@ -18,10 +18,14 @@ As of this writing, it is tested on the following at their default locations,
 * jira 6.3
 * fedora 20 x86_64 
 
-_jira.example.com_ is used as a server name and the URL that will be used to access Jira.
+_jira.example.com_ is used as a server name and the URL that will be used to access Jira from the browser.
 
-Replace the default nginx.conf with the one from this repository. Edit ssl key and certificate locations as well as the servername.
+nginx configuration
+-------------------
+Replace the default nginx.conf with the one from this repository. Edit ssl key and certificate locations as well as the server name. Read here for more recommendations for further improving SSL security performance - http://nginx.org/en/docs/http/configuring_https_servers.html
 
+Jira configuration
+------------------
 Edit your Jira server.xml and replace the following block,
 
         <Connector port="8080"
