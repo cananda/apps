@@ -22,7 +22,7 @@ _jira.example.com_ is used as a server name and the URL that will be used to acc
 
 nginx configuration
 -------------------
-Replace the default nginx.conf with the one from this repository. Edit ssl key and certificate locations as well as the server name. Read here for more recommendations for further improving SSL security performance - http://nginx.org/en/docs/http/configuring_https_servers.html or here https://gist.github.com/plentz/6737338
+Replace the default nginx.conf with the one from this repository. Edit ssl key and certificate locations as well as the server name. Read here for more recommendations for further improving SSL security performance - http://nginx.org/en/docs/http/configuring_https_servers.html or here https://gist.github.com/plentz/6737338 or here http://affix.me/index.php/2014/08/09/use-nginx-to-block-basic-web-based-attacks/
 
 Jira configuration
 ------------------
